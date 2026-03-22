@@ -23,7 +23,7 @@ pudesse suportar a programação orientada a objetos, às vezes referenciada com
 POO. Stroustrup declarou que algumas das características da orientação a objetos 
 do C++ foram inspiradas por outra linguagem orientada a objetos chamada de 
 Simula67. 
-A linguagem C é freqüentemente referenciada como uma linguagem de 
+A linguagem C é frequentemente referenciada como uma linguagem de 
 nível médio, posicionando-se entre o assembler (baixo nível) e o Pascal (alto nível)1. 
 Uma das razões da invenção da linguagem C foi dar ao programador uma linguagem 
 de alto nível que poderia ser utilizada como uma substituta para a linguagem 
