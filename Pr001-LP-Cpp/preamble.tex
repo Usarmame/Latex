@@ -5,7 +5,14 @@
 \usepackage{tikz}
 \usepackage{amsmath, amstext, amsfonts}
 \usepackage{geometry}
-\geometry{top = 1.5cm, bottom=1.5cm, left=1.5cm,right=1.5cm}
+\geometry{top=1.5cm, bottom=1.45cm, left=2cm, right=2.5cm}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{multicol}
+\usepackage{comment}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{eso-pic}
 \linespread{1.8}
 \setlength{\parindent}{0.5cm}
 %\usepackage{setspace}
@@ -14,10 +21,16 @@
 \lstset{
     breaklines = true,
     linewidth = \textwidth,
-    breakindent = 0pt
+    breakindent = 0pt,
+    inputencoding=utf8,
+    extendedchars=true,
+    basicstyle=\ttfamily\small,
+    columns = fullflexible
 }
-\usepackage{xcolor}
+%\usepackage{minted}
+%\usepackage{xcolor}
 \usepackage[hidelinks]{hyperref}
 \usepackage[backend=biber, sorting=none]{biblatex}
 \addbibresource{referencias.bib}
 \usepackage{csquotes}
+\usepackage[T1]{fontenc}

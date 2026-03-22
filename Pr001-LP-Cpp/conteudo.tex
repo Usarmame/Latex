@@ -2,20 +2,116 @@
 \input{preamble.tex}
 \begin{document}
 \thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+		\draw[line width=1pt] ([xshift=1cm,yshift=-1cm]current page.north west) rectangle ([xshift=-1cm,yshift=1cm]current page.south east);
+		\draw[line width=0.5pt] ([xshift=1.2cm,yshift=-1.2cm]current page.north west) rectangle ([xshift=-1.2cm,yshift=1.2cm]current page.south east);
+	\end{tikzpicture}
+	
+	%\vspace{0.5cm}
+	
+	\begin{center}
+		\begin{figure}
+		    \centering
+		    \includegraphics[width=0.3\linewidth]{img/logo-uem.png}
+		\end{figure}
+	\end{center}
+
+    \vspace{-3cm}
+	
+	\begin{center}
+		\textbf{UNIVERSIDADE EDUARDO MONDLANE} \\
+		\textbf{FACULDADE DE ENGENHARIA} \\
+		\textbf{DEPARTAMENTO DE ENGENHARIA ELECTROTÉCNICA}\\
+		\vspace{0.3cm}
+		2\textsuperscript{o} ano, Licenciatura em Engenharia Informática, Laboral \\
+		Cadeira: Linguagens de Programação\\
+	\end{center}
+	
+	
+	\begin{center}
+		\textbf{Resolução do Exercício (03)}
+		
+		\vspace{1cm}
+		\textbf{Grupo - (02)}
+	\end{center}
+	
+	\vspace{2cm}
+
+	\begin{minipage}[t]{0.5\textwidth}
+		\textbf{Discentes:} \\
+        Boana, Álvaro Eduardo - 0\% \\
+        Chiulele, Denzel Clauton Rogério- 0 \% \\
+		Guambe, Allen Lénart Mateus - 0 \% \\
+        Júnior, Raimundo Teixeira - 0 \% \\
+		Machatine, Lélio Leonardo- 0 \% \\
+        Machuza, Edwin Bernardo - 0.5 \% \\
+        Omar, Laiqa Rafik - 0 \% \\
+		\vfill
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.48\textwidth}
+		\begin{flushright}
+			\textbf{Docente:}\\
+			Ivone Cipriano, Engª
+		\end{flushright}
+	\end{minipage}
+	
+	\vfill
+	
+	\vspace{4cm}
+	
+	\begin{center}
+		
+		\textbf{Maputo, Abril de 2026}
+	\end{center}
+
+    \newpage
+    \thispagestyle{empty}
+	\begin{center}
+		\begin{figure}
+		    \centering
+		    \includegraphics[width=0.35\linewidth]{img/logo-uem.png}
+		\end{figure}
+	\end{center}
+		\begin{center}
+		\textbf{UNIVERSIDADE EDUARDO MONDLANE} \\
+		\textbf{FACULDADE DE ENGENHARIA} \\
+		\textbf{DEPARTAMENTO DE ENGENHARIA ELECTROTÉCNICA}\\
+		\vspace{0.3cm}
+		2\textsuperscript{o} ano, Licenciatura em Engenharia Informática, Laboral \\
+		Cadeira: Linguagens de Programação\\
+	\end{center}
+	\vspace{1cm}
+	\begin{center}
+		\textbf{Tema: Resolução do exercício (03)}\vfill
+		\textbf{Membros do grupo: }\\ 
+		Boana, Álvaro Eduardo \\
+        Chiulele, Denzel Clauton Rogério\\
+		Guambe, Allen Lénart Mateus \\
+        Júnior, Raimundo Teixeira Dias\\
+		Machatine, Lélio Leonardo\\
+        Machuza, Edwin Bernardo\\
+        Omar, Laiqa Rafik\\
+	\end{center}
+	\vfill
+    \begin{center}
+    Maputo, Abril de 2026
+    \end{center}
+\newpage
+\thispagestyle{empty}
 \tableofcontents
 
 \newpage
 \pagenumbering{arabic}
 \section{Introdução}
-\par{
+\paragraph{}
 
-}
 \newpage
 \section{Objectivos}
 \subsection{Objectivos gerais}
-\par{}
+
 \subsection{Objectivos específicos}
-\par{}
+
 
 \newpage
 
@@ -23,10 +119,9 @@
 
 A história do C/C++ começa nos anos 70 com a invenção da linguagem C. 
 A linguagem C foi inventada e implementada pela primeira vez por Dennis Ritchie 
-em um DEC PDP-11, usando o sistema operacional UNIX. 
+em um DEC PDP-11, usando o sistema operacional UNIX.\par 
 
-A linguagem C é o 
-resultado do processo de desenvolvimento iniciado com outra linguagem, chamada 
+A linguagem C é o resultado do processo de desenvolvimento iniciado com outra linguagem, chamada 
 BCPL, desenvolvida por Martin Richards. Esta linguagem influenciou a linguagem 
 inventada por Ken Thompson, chamado B, a qual levou ao desenvolvimento da 
 linguagem C. 
@@ -56,10 +151,9 @@ nível médio, posicionando-se entre o assembler (baixo nível) e o Pascal (alto
 Uma das razões da invenção da linguagem C foi dar ao programador uma linguagem 
 de alto nível que poderia ser utilizada como uma substituta para a linguagem 
 assembly. 
-
 \newpage
 \section{Programação Orientada à Objectos(POO)}
-\par{}
+
 
 \newpage
 \section{Ficheiros em C++}
@@ -74,7 +168,14 @@ assembly.
 
 \newpage
 \section{Resolução do exercício}
+\begin{lstlisting}[language = c++]
+    #include <iostream>
 
+    int main(){
+        std::cout<<"J-k";
+        return 0;
+    }
+\end{lstlisting}
 \newpage
 
 \nocite{*}
