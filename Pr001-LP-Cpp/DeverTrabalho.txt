@@ -1,0 +1,32 @@
+Trabalho de Pesquisa 1 em C++ Orientado a Objectos
+
+Esta pesquisa, tem como foco estudar a linguagem C++ com recurso a orientação 
+a objectos, devendo cada grupo abordar aspectos pertinentes deste paradigma e 
+outros que fazem referência a esta linguagem. A pesquisa, culmina com a entrega 
+do relatório escrito e posteriormente a apresentação e defesa do trabalho. 
+A estrutura do relatório e da apresentação pode obedecer a seguinte sequência, 
+podendo os grupos acrescentarem outros pontos importantes se o desejarem 
+usando se sua criatividade. Deve ter entre 8- 12 páginas. 
+
+1. Introdução; 
+
+2. Objectivos gerais e específicos; 
+
+3. Historial do c++;
+  
+4. Principais pontos na POO e sua aplicabilidade; 
+
+5. Ficheiros em C++; 
+
+6. Comparação com outras linguagens; 
+
+7. Conclusão; 
+
+8. Exercício (código) e diagrama de classe no anexo. 
+
+Na resolução do exercício deve: 
+
+a) Implementar o diagrama de classe; 
+
+b) Codificar implementando o paradigma de Programação Orientado a 
+Objectos; 
