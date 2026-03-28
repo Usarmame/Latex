@@ -1,4 +1,5 @@
-\documentclass{article}
+%\documentclass{article}
+\documentclass[a4paper,12pt]{article}
 \input{preamble.tex}
 \begin{document}
 \thispagestyle{empty}
@@ -27,7 +28,7 @@
 	
 	
 	\begin{center}
-		\textbf{Resolução do Exercício (03)}
+		\texttt{Estudo da linguagem de programação C++}
 		
 		\vspace{1cm}
 		\textbf{Grupo - (02)}
@@ -80,7 +81,7 @@
 	\end{center}
 	\vspace{1cm}
 	\begin{center}
-		\textbf{Tema: Resolução do exercício (03)}\vfill
+		\textbf{Tema: Estudo da linguagem de programação C\texttt{++}}\vfill
 		\textbf{Membros do grupo: }\\ 
 		Boana, Álvaro Eduardo \\
         Chiulele, Denzel Clauton Rogério\\
@@ -100,13 +101,26 @@
 \newpage
 \pagenumbering{arabic}
 \section{Introdução}
+O presente trabalho, visa convidar o leitor a entender POO(Programação Orientada a Objectos), junto a linguagem de programação \texttt{C++},
+uma linguagem de programação de médio-nível consolidada no desenvolvimento de jogos, de softwares de baixo nível,
+ sistemas embarcados, entre outros.  
 
 
 \newpage
 \section{Objectivos}
-\subsection{Objectivos gerais}
-
+Na presente secção apresenta-se os objectivos a serem 
+alcançados, nomeadamente, o geral em que é apresentado o objectivo principal do tema estudo e
+ específicos onde se estabelecem pontos que devem ser abordados. 
+\subsection{Objectivo geral}
+Estudar a linguagem de programação \texttt{C++} com enfoque no paradigma 
+orientado a objectos.
 \subsection{Objectivos específicos}
+\begin{itemize}
+\item Apresentar um breve historial da linguagem \texttt{C++};
+\item Explicar os pilares do paradigma orientado à objecto e sua aplicação;
+\item Apresentar de forma explícita e directa ficheiros em \texttt{C++}.
+
+\end{itemize}
 
 
 \newpage
@@ -149,30 +163,175 @@ de alto nível que poderia ser utilizada como uma substituta para a linguagem
 assembly. 
 \newpage
 \section{Programação Orientada à Objectos(POO)}
+A Programação Orientada à Objectos é um paradigma da programação que se debruça sobre a representação
+de objectos do mundo real em código. O desenvolvimento de sistemas mais complexos implica maior número
+de linhas de código que torna difícil o controlo e atualização dos mesmos e reutilização do código para 
+utilidades semelhantes. 
 
+E foi na ambição de resolver os problemas supracitados entre outros que se desenvolveu a POO ou do inglês OOP -
+ Programação Orientada à Objectos.
+ Como o nome já diz orientada à \textbf{objectos}, é de elevada importância entender o objecto e de onde ele surge para 
+ tal serão definidos a classe e o objecto.
+
+ \subsection{Classe}
+É um molde para criar objectos que irão possuir mesmas características(atributos) e comportamentos(métodos), é 
+como uma forma de bolos circular(classe) que irá produzir bolos com o formato circular(objecto).
+
+ \subsection{Objecto}
+ Um objeto é uma instância de uma classe que contém atributos e métodos, permitindo representar
+  entidades do mundo real e controlar o acesso aos seus dados.
+
+
+
+ A programação Orientada à Objectos é regida por quatro principais pilares, que serão melhor representados(três destes)
+ no código do exercício proposto: abstração, encapsulamento, herança e polimorfismo.
+
+
+ \subsection{Abstração}
+ Abstração é o processo de representar apenas as características relevantes de um objeto, ocultando os detalhes desnecessários (esconde a complexidade).
+ Exemplo: O utilizador do ATM, ele só vê as instruções levantar, depositar, etc, ele não precisa saber oque aconte internamente 
+ para ele receber a informação final.
+
+ \subsection{Encapsulamento}
+Encapsulamento é o mecanismo que restringe o acesso direto aos dados de um objeto, permitindo que eles sejam 
+manipulados apenas por meio de métodos definidos.
+
+\subsection{Herança}
+Herança é o processo em que um objeto pode adquirir as propriedades 
+de outro objeto. Isso é importante, já que suporta o conceito de classificação. Por 
+exemplo, uma deliciosa maça vermelha é parte da classificação maçã, que por sua 
+vez, faz parte da classificação frutas, que está na grande classe comida.
+
+Sem o uso 
+de classificações, cada objeto precisaria definir explicitamente todas as suas 
+características. Portanto, usando-se classificações, um objeto precisa definir 
+somente aquelas qualidades que o tornam único dentro de sua classe. Ele pode 
+herdar as qualidades que compartilha com a classe mais geral. É o mecanismo de 
+herança que torna possível a um objeto ser uma instância específica de uma classe 
+mais geral.
+
+
+\subsection{Polimorfismo}
+O polimorfismo é um conceito fundamental da Programação Orientada a Objetos (POO) 
+que significa literalmente “muitas formas”. Em programação, ele permite que objetos de 
+diferentes classes sejam tratados de forma uniforme, 
+desde que compartilhem uma mesma interface ou herança. Existem dois tipos de polimorfismo:
+ por herança e por sobrecarga(overloading).
+
+\subsubsection{Polimorfismo por herança}
+Se você tem uma classe base e várias classes derivadas, você pode usar uma referência da classe 
+base para chamar métodos de qualquer classe derivada. O método correto será escolhido em tempo de execução.
+
+\subsubsection{Polimorfismo por sobrecarga}
+É quando você define vários métodos com o mesmo nome, mas com parâmetros diferentes na mesma classe. 
+O compilador escolhe qual método usar dependendo dos argumentos(tempo de compilação).
 
 \newpage
 \section{Ficheiros em \texttt{C++}}
-Ficheiros servem para armazenamento persistente de dados,
+ Ficheiros servem para armazenamento persistente de dados,
  configuração de sistemas, registro de logs e intercâmbio de informações. Eles permitem guardar dados
   após o fim da execução do programa (memória não volátil), criando documentos legíveis por humanos e 
-  portáveis entre diferentes sistemas. Dado que a informação que é recebida via teclado e é perdida após 
+  portáveis entre diferentes sistemas.
+  
+  Dado que a informação que é recebida via teclado e é perdida após 
   a execução do programa, pode ser do interesse do programador que as informações sejam guardadas em algum
-  lugar e é no presente ponto em que os ficheiros se mostram úteis.\newline Tal como visto em \texttt{Java} em
-  \texttt{C++} também é possível manipular ficheiros de texto, abaixo será apresentada a forma de criação, escrita e
-  leitura dos ficheiros.
-  \newline
+  lugar, e por estes motivos que será apresentado abaixo um programa representativo. 
+  
+  Tal como visto em \texttt{
+	\href{https://www.java.com/en/}{Java}} em
+  \texttt{C++} também é possível manipular ficheiros de texto, abaixo será 
+  apresentada a forma de criação, escrita e
+  leitura dos ficheiros.\\ Para efeitos educativos será apresentado um código que recebe o nome e curso e guarda 
+  num ficheiro de texto e de seguida mostra o conteúdo do mesmo.\newline\begin{lstlisting}{language=cpp}
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+int main() {
+    string nome, curso;
+    cout << "Digite seu nome: ";
+    getline(cin, nome);
+    cout << "Digite seu curso: ";
+    getline(cin, curso);
+
+    // Abrir o ficheiro para escrita (cria se nao existir)
+    ofstream ficheiroEscrita("dados.txt", ios::app); 
 
 
+	
+    if (!ficheiroEscrita.is_open()) {
+        cout << "Erro ao abrir o ficheiro para escrita!" << endl;
+        return -1;
+    }
+
+
+    //Escrever no ficheiro
+    ficheiroEscrita << "-----------------------" << endl;
+    ficheiroEscrita << "Nome: " << nome << endl;
+    ficheiroEscrita << "Curso: " << curso << endl;
+    ficheiroEscrita << "-----------------------" << endl;
+
+    ficheiroEscrita.close(); // fechar ficheiro
+
+    // Abrir o ficheiro para leitura
+    ifstream ficheiroLeitura("dados.txt");
+
+    if (!ficheiroLeitura.is_open()) {
+        cout << "Erro ao abrir o ficheiro para leitura!" << endl;
+        return -1;
+    }
+
+    // Ler linha por linha e mostrar o conteudo
+    string linha;
+    cout << "\nConteudo do ficheiro:\n";
+    while (getline(ficheiroLeitura, linha)) {
+        cout << linha << endl;
+    }
+    ficheiroLeitura.close(); // fechar ficheiro
+    return 0;
+}
+\end{lstlisting}
+
+
+\footnotetext{É considerada boa prática fechar o ficheiro, pois
+os dados muitas vezes ficam no buffer(memória) e só ao
+fechar o ficheiro o sistema garante que tudo foi escrito no 
+disco. }
 \newpage
 
 \section{Comparando C++ com outras linguagens}
+Comparar linguagens de programação(para achar a melhor) em tese é 
+praticamente impossível, pois cada linguagem é desenvolvida com o propósito de
+resolver dado problema, contudo, podemos comparar em alguns pontos como velocidade
+de compilação, quantidade de paradigmas suportados, segurança, entre outros.
 
+\subsection{Velocidade de compilação}
+A linguagem \texttt{C++} relativamente as outras linguagens quanto a velocidade de 
+compilação dado uso intenso de headers(\#include), falta de um sistema de modulos eficiente, 
+linking pesado entre projectos, em projectos grandes pode levar muito tempo a compilar, a 
+única linguagem actual que tende a levar tanto tempo ou mais quanto ao tempo de compilação é a
+Rust, devido ao sistema de tipos e verificações de segurança. Sendo GO a mais rápida.
+
+\subsection{Paradigmas suportados}
+A linguagem \texttt{C++} é uma das poucas linguagens com um suporte aos paradigmas orientado
+ a objecto, funcional, procedural, baixo nível, genérico, metaprogramação, entre outros. Que a torna
+ uma das raras linguagens com suporte a tantos paradigmas.
+
+\subsection{Segurança}
+Quanto é segurança a linguagem \texttt{C++} não é considerada muito segura devido a gerenciamento manual de memória,
+ ponteiros perigosos, buffer overflow possível(quando um programa escreve mais dados, em um espaço de memória, 
+ que ele pode suportar), comportamento indefinido(é quando o programa faz algo que a linguagem não define o que deve 
+ acontecer).
+\subsection{Conclusão}
+Comparar linguagens de programação é, no fundo, avaliar compromissos (trade-offs) — 
+nenhuma linguagem é “melhor em tudo”, como Python está para IA's e análise de dados, \texttt{C++} está para desenvolvimento de softwares
+e Kotlin e Swift para aplicações Mobile. A comparação no fim de contas depende de um contexto.
 \newpage
 \section{Conclusão}
-
 
 \newpage
 \nocite{*}
 \printbibliography[heading=bibintoc]
+
 \end{document}
