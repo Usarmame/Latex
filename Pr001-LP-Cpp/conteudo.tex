@@ -1,4 +1,3 @@
-%\documentclass{article}
 \documentclass[a4paper,12pt]{article}
 \input{preamble.tex}
 \begin{document}
@@ -42,7 +41,7 @@
         Chiulele, Denzel Clauton Rogério- 0 \% \\
 		Guambe, Allen Lénart Mateus - 0 \% \\
         Júnior, Raimundo Teixeira - 0 \% \\
-        Machuza, Edwin Bernardo - 0.5 \% \\
+        Machuza, Edwin Bernardo - 15 \% \\
         Omar, Laiqa Rafik - 0 \% \\
 		\vfill
 	\end{minipage}
@@ -81,7 +80,7 @@
 	\end{center}
 	\vspace{1cm}
 	\begin{center}
-		\textbf{Tema: Estudo da linguagem de programação C\texttt{++}}\vfill
+		\textbf{Tema: Estudo da linguagem de programação \texttt{C++}}\vfill
 		\textbf{Membros do grupo: }\\ 
 		Boana, Álvaro Eduardo \\
         Chiulele, Denzel Clauton Rogério\\
@@ -103,14 +102,14 @@
 \section{Introdução}
 O presente trabalho, visa convidar o leitor a entender POO(Programação Orientada a Objectos), junto a linguagem de programação \texttt{C++},
 uma linguagem de programação de médio-nível consolidada no desenvolvimento de jogos, de softwares de baixo nível,
- sistemas embarcados, entre outros.  
+ sistemas embarcados, entre outros.	
 
 
 \newpage
 \section{Objectivos}
 Na presente secção apresenta-se os objectivos a serem 
-alcançados, nomeadamente, o geral em que é apresentado o objectivo principal do tema estudo e
- específicos onde se estabelecem pontos que devem ser abordados. 
+alcançados, nomeadamente, o geral em que apresenta-se o objectivo principal do tema em estudo e
+ específicos onde se estabelecem pontos que devem ser abordados para efectivação do objectivo geral. 
 \subsection{Objectivo geral}
 Estudar a linguagem de programação \texttt{C++} com enfoque no paradigma 
 orientado a objectos.
@@ -168,13 +167,13 @@ de objectos do mundo real em código. O desenvolvimento de sistemas mais complex
 de linhas de código que torna difícil o controlo e atualização dos mesmos e reutilização do código para 
 utilidades semelhantes. 
 
-E foi na ambição de resolver os problemas supracitados entre outros que se desenvolveu a POO ou do inglês OOP -
+E foi na ambição de resolver os problemas supracitados e outros que se desenvolveu a POO ou do inglês OOP -
  Programação Orientada à Objectos.
- Como o nome já diz orientada à \textbf{objectos}, é de elevada importância entender o objecto e de onde ele surge para 
- tal serão definidos a classe e o objecto.
+ Como o nome já diz orientada à \textbf{objectos}, é de elevada importância entender o conceito de objecto e como ele é criado, para 
+ tal serão definidos a \textbf{classe} e o \textbf{objecto}.
 
  \subsection{Classe}
-É um molde para criar objectos que irão possuir mesmas características(atributos) e comportamentos(métodos), é 
+É um molde para criar objectos que irão possuir mesmas características(atributos) e comportamentos(métodos) que serão úteis para alterar e visualizar os atributos, é 
 como uma forma de bolos circular(classe) que irá produzir bolos com o formato circular(objecto).
 
  \subsection{Objecto}
@@ -183,37 +182,36 @@ como uma forma de bolos circular(classe) que irá produzir bolos com o formato c
 
 
 
- A programação Orientada à Objectos é regida por quatro principais pilares, que serão melhor representados(três destes)
- no código do exercício proposto: abstração, encapsulamento, herança e polimorfismo.
+ A programação Orientada à Objectos é regida por quatro principais pilares: abstração, encapsulamento, herança e polimorfismo.
 
 
  \subsection{Abstração}
  Abstração é o processo de representar apenas as características relevantes de um objeto, ocultando os detalhes desnecessários (esconde a complexidade).
- Exemplo: O utilizador do ATM, ele só vê as instruções levantar, depositar, etc, ele não precisa saber oque aconte internamente 
+ Exemplo: O utilizador do ATM, ele só vê as instruções levantar, depositar, etc, ele não precisa saber oque acontece internamente 
  para ele receber a informação final.
 
  \subsection{Encapsulamento}
-Encapsulamento é o mecanismo que restringe o acesso direto aos dados de um objeto, permitindo que eles sejam 
+Encapsulamento é o mecanismo que restringe o acesso directo aos dados de um objeto, permitindo que eles sejam 
 manipulados apenas por meio de métodos definidos.
 
 \subsection{Herança}
-Herança é o processo em que um objeto pode adquirir as propriedades 
-de outro objeto. Isso é importante, já que suporta o conceito de classificação. Por 
+Herança é o processo em que um objecto pode adquirir as propriedades 
+de outro objecto. Isso é importante, já que suporta o conceito de classificação. Por 
 exemplo, uma deliciosa maça vermelha é parte da classificação maçã, que por sua 
 vez, faz parte da classificação frutas, que está na grande classe comida.
 
 Sem o uso 
 de classificações, cada objeto precisaria definir explicitamente todas as suas 
-características. Portanto, usando-se classificações, um objeto precisa definir 
+características. Portanto, usando-se classificações, um objecto precisa definir 
 somente aquelas qualidades que o tornam único dentro de sua classe. Ele pode 
 herdar as qualidades que compartilha com a classe mais geral. É o mecanismo de 
-herança que torna possível a um objeto ser uma instância específica de uma classe 
+herança que torna possível a um objecto ser uma instância específica de uma classe 
 mais geral.
 
 
 \subsection{Polimorfismo}
 O polimorfismo é um conceito fundamental da Programação Orientada a Objetos (POO) 
-que significa literalmente “muitas formas”. Em programação, ele permite que objetos de 
+que significa literalmente “muitas formas”. Em programação, ele permite que objectos de 
 diferentes classes sejam tratados de forma uniforme, 
 desde que compartilhem uma mesma interface ou herança. Existem dois tipos de polimorfismo:
  por herança e por sobrecarga(overloading).
@@ -297,10 +295,10 @@ int main() {
 \footnotetext{É considerada boa prática fechar o ficheiro, pois
 os dados muitas vezes ficam no buffer(memória) e só ao
 fechar o ficheiro o sistema garante que tudo foi escrito no 
-disco. }
+disco.}
 \newpage
 
-\section{Comparando C++ com outras linguagens}
+\section{Comparando \texttt{C++} com outras linguagens}
 Comparar linguagens de programação(para achar a melhor) em tese é 
 praticamente impossível, pois cada linguagem é desenvolvida com o propósito de
 resolver dado problema, contudo, podemos comparar em alguns pontos como velocidade
@@ -329,7 +327,9 @@ nenhuma linguagem é “melhor em tudo”, como Python está para IA's e anális
 e Kotlin e Swift para aplicações Mobile. A comparação no fim de contas depende de um contexto.
 \newpage
 \section{Conclusão}
-
+Tendo feito o trabalho, conclui-se que a linguagem \texttt{C++}, com o paradigma de Orientação a Objectos, consolida os conhecimentos dos pilares
+ de POO e facilita a compreensão dos mesmos para a implementação destes em outras linguagens, uma vez que, a linguagem \texttt{C++} 
+ foi uma das primeiras a implementar a POO de forma robusta em seus códigos e/ou programas.
 \newpage
 \nocite{*}
 \printbibliography[heading=bibintoc]
