@@ -1,0 +1,80 @@
+<mxfile host="65bd71144e">
+    <diagram id="fkLNYfyZ7_PCyQTMhrqC" name="Página-1">
+        <mxGraphModel dx="396" dy="418" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="10" value="«abstract»" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingTop=0;fontSize=11;fontStyle=2;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="30" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Usuario" style="swimlane;startSize=30;fontStyle=3;fontSize=13;fillColor=#000000;strokeColor=#000000;align=center;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="335" y="50" width="200" height="185" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="- nome : string&#xa;- id : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;" parent="11" vertex="1">
+                    <mxGeometry y="30" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="line;strokeColor=#000000;fillColor=none;" parent="11" vertex="1">
+                    <mxGeometry y="70" width="200" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;div&gt;+Usuario(nome:string, id:string)&lt;/div&gt;&lt;div&gt;+~&lt;i&gt;Usuario&lt;/i&gt;()&lt;/div&gt;+ getNome() : string&lt;br&gt;+ getId() : string&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;+setNome(string nome):void&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;+setId(string id):void&lt;br&gt;&lt;/font&gt;&lt;i&gt;+ mostrarDados() : void&lt;/i&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;html=1;" parent="11" vertex="1">
+                    <mxGeometry y="80" width="200" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Aluno" style="swimlane;startSize=30;fontStyle=1;fontSize=13;fillColor=#000000;strokeColor=#000000;align=center;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="289.5" width="220" height="226" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="- endereco : string&#xa;- contacto : string&#xa;- instituicao : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;" parent="20" vertex="1">
+                    <mxGeometry y="30" width="220" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="line;strokeColor=#000000;fillColor=none;" parent="20" vertex="1">
+                    <mxGeometry y="80" width="220" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="+Aluno(nome:string, id:string, contacto:&#xa;string, instituicao:string, endereco:string )&#xa;+ getEndereco() : string&#xa;+ getContacto() : string&#xa;+ getInstituicao() : string&#xa;+setEndereco(endereco:string):void&#xa;+setContacto(contacto:string):void&#xa;+setInstituicao(instituicao:string):void&#xa;+ mostrarDados() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;" parent="20" vertex="1">
+                    <mxGeometry y="90" width="220" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="ContaCartao" style="swimlane;startSize=30;fontStyle=1;fontSize=13;align=center;fillColor=#000000;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="302" width="238" height="204" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="- saldo : double&#xa;- beneficio : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;" parent="30" vertex="1">
+                    <mxGeometry y="30" width="238" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="line;strokeColor=light-dark(#000000,#6D5100);fillColor=none;" parent="30" vertex="1">
+                    <mxGeometry y="70" width="237" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="+ContaCartao(saldo:double, beneficio:double)&#xa;&#xa;+ getSaldo() : double&#xa;+ getBeneficio() : double&#xa;+setSaldo(saldo:double):void&#xa;+setBeneficio(beneficio:double):void&#xa;+ depositar(valor:double) : void&#xa;+ sacar(valor:double) : bool&#xa;+ mostrarDados() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;" parent="30" vertex="1">
+                    <mxGeometry y="80" width="238" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="AlunoContaCartao" style="swimlane;startSize=30;fontStyle=1;fontSize=13;fillColor=#000000;strokeColor=light-dark(#000000,#000000);align=center;fontColor=#FFFFFF;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="305" y="620" width="330" height="143" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="line;strokeColor=#000000;fillColor=none;fontColor=default;" parent="40" vertex="1">
+                    <mxGeometry y="42" width="330" height="23" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="+AlunoContaCartao(nome:string, id:string, contacto:string,&#xa;instituicao:string, saldo:double, beneficio:double)&#xa;&#xa;+ mostrarDados() : void&#xa;+ salvar() : void&#xa;+ executarMenu() : void" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;strokeWidth=1;" parent="40" vertex="1">
+                    <mxGeometry y="54" width="330" height="89" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="endArrow=block;endFill=0;endSize=12;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;" parent="1" source="20" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="«virtual»" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontStyle=2;" parent="51" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" style="endArrow=block;endFill=0;endSize=12;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;" parent="1" source="30" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="«virtual»" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontStyle=2;" parent="53" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" style="endArrow=block;endFill=0;endSize=12;edgeStyle=orthogonalEdgeStyle;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;" parent="1" source="40" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" style="endArrow=block;endFill=0;endSize=12;edgeStyle=orthogonalEdgeStyle;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;" parent="1" source="40" target="30" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

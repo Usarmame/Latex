@@ -1,0 +1,78 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="N-8SKRt6jNTNlZGg_aW9">
+    <mxGraphModel dx="378" dy="426" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JanV40UWbI4e0YtROO-M-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Usuario" vertex="1">
+          <mxGeometry height="250" width="175" x="330" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JanV40UWbI4e0YtROO-M-2" parent="JanV40UWbI4e0YtROO-M-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;#nome: string&lt;/div&gt;&lt;div&gt;#numeroIdentificador:string&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="175" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JanV40UWbI4e0YtROO-M-3" parent="JanV40UWbI4e0YtROO-M-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="175" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="JanV40UWbI4e0YtROO-M-4" parent="JanV40UWbI4e0YtROO-M-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; +Usuario(n: string, nId:string)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; +getNome(): string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; +getNumeroId():string&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; +setNome(string n):void&lt;/div&gt;&lt;div&gt;+setNumId(string numId):void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; +mostrarDados(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="156" width="175" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="JanV40UWbI4e0YtROO-M-18" edge="1" parent="1" source="JanV40UWbI4e0YtROO-M-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" target="JanV40UWbI4e0YtROO-M-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JanV40UWbI4e0YtROO-M-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ContaCartao" vertex="1">
+          <mxGeometry height="205" width="251" x="547" y="396" as="geometry">
+            <mxRectangle height="30" width="110" x="544" y="360" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JanV40UWbI4e0YtROO-M-6" parent="JanV40UWbI4e0YtROO-M-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- saldo : double;&lt;div&gt;- contaAtiva:bool&lt;br&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="37" width="251" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JanV40UWbI4e0YtROO-M-7" parent="JanV40UWbI4e0YtROO-M-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="251" y="63" as="geometry" />
+        </mxCell>
+        <mxCell id="JanV40UWbI4e0YtROO-M-8" parent="JanV40UWbI4e0YtROO-M-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; +ContaCartao(saldo: double, contaAtiva: bool, numId: string, nomeUsuario:string)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; +getSaldo():double&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+getEstadoConta(ContaAtiva:bool):string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; +mostrarDados(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="134" width="251" y="71" as="geometry" />
+        </mxCell>
+        <mxCell id="JanV40UWbI4e0YtROO-M-17" edge="1" parent="1" source="JanV40UWbI4e0YtROO-M-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" target="JanV40UWbI4e0YtROO-M-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JanV40UWbI4e0YtROO-M-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Aluno" vertex="1">
+          <mxGeometry height="204" width="220" x="57" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="JanV40UWbI4e0YtROO-M-10" parent="JanV40UWbI4e0YtROO-M-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; -curso: string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="37" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JanV40UWbI4e0YtROO-M-11" parent="JanV40UWbI4e0YtROO-M-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="63" as="geometry" />
+        </mxCell>
+        <mxCell id="JanV40UWbI4e0YtROO-M-12" parent="JanV40UWbI4e0YtROO-M-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; +Aluno(curso: string, nome: string, numId: string&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; +getCurso():string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; +setCurso(string crs):void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+mostrarDados(): void&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="133" width="220" y="71" as="geometry" />
+        </mxCell>
+        <mxCell id="yuW_0zx8uXKH5wk6shFK-1" edge="1" parent="1" source="UFjwZmsgDTGK1CUVleGL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.49;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="JanV40UWbI4e0YtROO-M-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="493" y="777" as="sourcePoint" />
+            <mxPoint x="700" y="642" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuW_0zx8uXKH5wk6shFK-2" edge="1" parent="1" source="UFjwZmsgDTGK1CUVleGL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.477;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" target="JanV40UWbI4e0YtROO-M-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="302" y="777" as="sourcePoint" />
+            <mxPoint x="119" y="652" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFjwZmsgDTGK1CUVleGL-3" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="AlunoContaCartao" vertex="1">
+          <mxGeometry height="195" width="240" x="274" y="688" as="geometry" />
+        </mxCell>
+        <mxCell id="UFjwZmsgDTGK1CUVleGL-4" parent="UFjwZmsgDTGK1CUVleGL-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-beneficio:double&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UFjwZmsgDTGK1CUVleGL-5" parent="UFjwZmsgDTGK1CUVleGL-3" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="240" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="UFjwZmsgDTGK1CUVleGL-6" parent="UFjwZmsgDTGK1CUVleGL-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+AlunoContaCartao(benefico:double, curso: string, saldo:double)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+getBeneficio():double&lt;/div&gt;&lt;div&gt;+setBeneficio():void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+mostrarDados():void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="114" width="240" y="81" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
