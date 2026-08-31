@@ -61,6 +61,8 @@ void demonstrarClasses()
     cout << "\n[3] Objeto da classe ALUNOCONTACARTAO (herda Aluno + ContaCartao):" << endl;
     AlunoContaCartao acc("Pedro Silva", "B002", "841987654", "UCM", "Rua da Paz, 12", 1000.0, 5.0);
     acc.mostrarDados();
+acc.salvar();
+acc.executarMenu();
 }
 
 void cadastrarAluno(vector<AlunoContaCartao> &alunos)
