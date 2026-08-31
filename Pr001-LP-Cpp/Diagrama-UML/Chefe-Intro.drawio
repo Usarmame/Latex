@@ -1,0 +1,37 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Página-1" id="29v1Ro8ZhbddPgr3xaBX">
+    <mxGraphModel dx="896" dy="633" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PHKeSORHj4WqfFZlJSlY-1" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#000000;strokeColor=#000000;shadow=1;direction=east;gradientColor=#333333;gradientDirection=north;" value="" vertex="1">
+          <mxGeometry height="80" width="120" x="395" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="PHKeSORHj4WqfFZlJSlY-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="O sistema de gestão&amp;nbsp;" vertex="1">
+          <mxGeometry height="31" width="268" x="101" y="462" as="geometry" />
+        </mxCell>
+        <mxCell id="PHKeSORHj4WqfFZlJSlY-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="33" width="305" x="528" y="614" as="geometry" />
+        </mxCell>
+        <mxCell id="PHKeSORHj4WqfFZlJSlY-5" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;curved=0;shadow=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="565" y="550" />
+            </Array>
+            <mxPoint x="521" y="550" as="sourcePoint" />
+            <mxPoint x="565" y="606" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHKeSORHj4WqfFZlJSlY-7" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;shadow=1;curved=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="328" y="550" />
+            </Array>
+            <mxPoint x="328" y="496" as="sourcePoint" />
+            <mxPoint x="384" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
